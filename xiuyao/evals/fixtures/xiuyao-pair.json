@@ -1,0 +1,10 @@
+{
+  "reading_type": "xiuyao-pair",
+  "birth": {
+    "a": {"year": 2000, "month": 1, "day": 1},
+    "b": {"year": 1995, "month": 6, "day": 15}
+  },
+  "date": "2026-07-09",
+  "language": "zh",
+  "question": "两人长期伴侣关系的相处之道"
+}

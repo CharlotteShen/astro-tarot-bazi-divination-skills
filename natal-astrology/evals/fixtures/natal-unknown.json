@@ -1,0 +1,4 @@
+{"reading_type": "natal",
+ "birth": {"name": "UNK", "year": 1988, "month": 11, "day": 5, "hour": 12, "minute": 0,
+           "lat": -33.87, "lon": 151.21, "tz": "Australia/Sydney", "city": "Sydney",
+           "house_system": "Placidus", "time_known": false}}

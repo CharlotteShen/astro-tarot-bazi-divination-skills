@@ -1,0 +1,5 @@
+{"reading_type": "transit",
+ "birth": {"name": "ABC", "year": 2000, "month": 1, "day": 1, "hour": 12, "minute": 0,
+           "lat": 51.5074, "lon": -0.1278, "tz": "Europe/London", "city": "London",
+           "house_system": "Placidus"},
+ "on": "2026-07-01"}

@@ -1,0 +1,11 @@
+{"reading_type": "synastry",
+ "must_mention": [
+   {"desc": "A.ASC sextile B.Sun (0.30)", "patterns": ["(?i)sun[^.]{0,90}sextile[^.]{0,90}(asc|ascendant|rising)", "(?i)(asc|ascendant|rising)[^.]{0,90}sextile[^.]{0,90}sun", "太阳[^。]{0,50}六分[^。]{0,50}上升", "上升[^。]{0,50}六分[^。]{0,50}太阳"]},
+   {"desc": "A.Sun trine B.Mars (0.39)", "patterns": ["(?i)sun[^.]{0,90}trine[^.]{0,90}mars", "(?i)mars[^.]{0,90}trine[^.]{0,90}sun", "太阳[^。]{0,50}(三分|拱)[^。]{0,50}火星"]},
+   {"desc": "reinforced contact (6 double whammies exist)", "patterns": ["(?i)double[- ]?whamm", "(?i)reciprocal", "(?i)mutual(ly)?[^.]{0,60}(aspect|reinforc|echo)", "双向"]}
+ ],
+ "forbidden": [
+   {"desc": "fabricated: Sun conjunction Sun", "patterns": ["(?i)sun[^.]{0,60}(conjunct|conjunction)[^.]{0,60}sun"]},
+   {"desc": "fabricated: Moon opposition Moon", "patterns": ["(?i)moon[^.]{0,60}opposi(te|tion)[^.]{0,60}moon"]}
+ ],
+ "must_flag": []}

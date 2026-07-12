@@ -1,0 +1,12 @@
+{"reading_type": "natal",
+ "must_mention": [
+   {"desc": "Scorpio Sun", "patterns": ["(?i)scorpio", "天蝎"]},
+   {"desc": "Sun conjunction Pluto (0.31)", "patterns": ["(?i)sun[^.]{0,80}(conjunct|conjunction)[^.]{0,80}pluto", "(?i)pluto[^.]{0,80}(conjunct|conjunction)[^.]{0,80}sun", "太阳[^。]{0,40}合[^。]{0,40}冥王"]}
+ ],
+ "forbidden": [
+   {"desc": "fabricated: Venus conjunction Mars", "patterns": ["(?i)venus[^.]{0,60}(conjunct|conjunction)[^.]{0,60}mars", "(?i)mars[^.]{0,60}(conjunct|conjunction)[^.]{0,60}venus"]},
+   {"desc": "fabricated: Sun square Saturn", "patterns": ["(?i)sun[^.]{0,60}square[^.]{0,60}saturn", "(?i)saturn[^.]{0,60}square[^.]{0,60}sun"]}
+ ],
+ "must_flag": [
+   {"desc": "unknown-birth-time caveat", "patterns": ["(?i)birth ?time[^.]{0,90}(unknown|not known|uncertain|unreliable)", "(?i)(unknown|without a) birth ?time", "(?i)(houses|ascendant|rising)[^.]{0,90}(unreliable|placeholder|flagged|cannot be)", "出生时间[^。]{0,30}(未知|不确定)"]}
+ ]}

@@ -1,0 +1,15 @@
+{"reading_type": "natal",
+ "must_mention": [
+   {"desc": "Sun trine Saturn (0.03)", "patterns": ["(?i)sun[^.]{0,80}trine[^.]{0,80}saturn", "(?i)saturn[^.]{0,80}trine[^.]{0,80}sun", "太阳[^。]{0,40}(三分|拱)[^。]{0,40}土星", "土星[^。]{0,40}(三分|拱)[^。]{0,40}太阳", "太阳[^。]{0,60}土星[^。]{0,30}三分"]},
+   {"desc": "Sun conjunction MC (0.88)", "patterns": ["(?i)sun[^.]{0,80}(conjunct|conjunction)[^.]{0,80}(mc|midheaven)", "(?i)(mc|midheaven)[^.]{0,80}(conjunct|conjunction)[^.]{0,80}sun", "太阳[^。]{0,40}合[^。]{0,40}(天顶|MC)"]},
+   {"desc": "Jupiter conjunction ASC (1.24)", "patterns": ["(?i)jupiter[^.]{0,80}(conjunct|conjunction)[^.]{0,80}(asc|ascendant|rising)", "(?i)(asc|ascendant|rising)[^.]{0,80}(conjunct|conjunction)[^.]{0,80}jupiter", "木星[^。]{0,40}合[^。]{0,40}上升"]},
+   {"desc": "Capricorn Sun", "patterns": ["(?i)capricorn", "摩羯"]},
+   {"desc": "Scorpio Moon", "patterns": ["(?i)scorpio", "天蝎"]},
+   {"desc": "Aries rising", "patterns": ["(?i)aries", "白羊"]}
+ ],
+ "forbidden": [
+   {"desc": "fabricated: Sun trine Moon", "patterns": ["(?i)sun[^.]{0,60}trine[^.]{0,60}moon", "(?i)moon[^.]{0,60}trine[^.]{0,60}sun"]},
+   {"desc": "fabricated: Venus conjunction Mars", "patterns": ["(?i)venus[^.]{0,60}(conjunct|conjunction)[^.]{0,60}mars", "(?i)mars[^.]{0,60}(conjunct|conjunction)[^.]{0,60}venus"]},
+   {"desc": "fabricated: Sun square Jupiter", "patterns": ["(?i)sun[^.]{0,60}square[^.]{0,60}jupiter", "(?i)jupiter[^.]{0,60}square[^.]{0,60}sun"]}
+ ],
+ "must_flag": []}

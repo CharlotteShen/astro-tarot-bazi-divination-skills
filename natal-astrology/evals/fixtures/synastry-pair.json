@@ -1,0 +1,7 @@
+{"reading_type": "synastry",
+ "birth_a": {"name": "ABC", "year": 2000, "month": 1, "day": 1, "hour": 12, "minute": 0,
+             "lat": 51.5074, "lon": -0.1278, "tz": "Europe/London", "city": "London",
+             "house_system": "Placidus"},
+ "birth_b": {"name": "XYZ", "year": 1995, "month": 6, "day": 15, "hour": 8, "minute": 30,
+             "lat": 48.85, "lon": 2.35, "tz": "Europe/Paris", "city": "Paris",
+             "house_system": "Placidus"}}

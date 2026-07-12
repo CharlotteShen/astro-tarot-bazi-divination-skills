@@ -1,0 +1,13 @@
+{"reading_type": "transit",
+ "must_mention": [
+   {"desc": "t.Sun opposition natal MC (0.15)", "patterns": ["(?i)sun[^.]{0,90}opposi(te|tion)[^.]{0,90}(mc|midheaven)", "(?i)(mc|midheaven)[^.]{0,90}opposi(te|tion)[^.]{0,90}sun", "太阳[^。]{0,50}(对分|冲)[^。]{0,50}(天顶|MC)"]},
+   {"desc": "t.Uranus sextile natal North Node (0.22)", "patterns": ["(?i)uranus[^.]{0,90}sextile[^.]{0,90}(north )?node", "天王星[^。]{0,50}六分[^。]{0,50}北交"]},
+   {"desc": "t.Mars opposition natal Venus (0.31)", "patterns": ["(?i)mars[^.]{0,90}opposi(te|tion)[^.]{0,90}venus", "(?i)venus[^.]{0,90}opposi(te|tion)[^.]{0,90}mars", "火星[^。]{0,50}(对分|冲)[^。]{0,50}金星"]}
+ ],
+ "forbidden": [
+   {"desc": "fabricated: t.Pluto conjunction natal Sun", "patterns": ["(?i)pluto[^.]{0,70}(conjunct|conjunction)[^.]{0,70}sun", "(?i)sun[^.]{0,70}(conjunct|conjunction)[^.]{0,70}pluto"]},
+   {"desc": "fabricated: t.Saturn square natal Moon", "patterns": ["(?i)saturn[^.]{0,70}square[^.]{0,70}moon", "(?i)moon[^.]{0,70}square[^.]{0,70}saturn"]}
+ ],
+ "must_flag": [
+   {"desc": "transiting-Moon noon approximation", "patterns": ["(?i)moon[^.]{0,110}(approximate|noon)", "(?i)(approximate|noon)[^.]{0,60}moon", "月亮[^。]{0,50}(近似|正午)"]}
+ ]}

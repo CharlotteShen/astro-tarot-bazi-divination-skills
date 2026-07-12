@@ -1,0 +1,43 @@
+# Your birth data — private, never committed (the skills read it locally)
+birth-data.md
+birth-data-*.md
+**/birth-data.md
+**/birth-data-*.md
+*-birth-data.md
+**/*-birth-data.md
+Birth Data *.md
+**/Birth Data *.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# macOS / editor noise
+.DS_Store
+**/.DS_Store
+
+# Local Claude Code state
+.claude/
+
+# Generated readings & reports (contain personal charts/questions)
+natal-astrology/charts/
+natal-astrology/*-reports/
+natal-astrology/evals/runs/
+tarot/readings/
+tarot/evals/runs/
+bazi/reports/
+bazi/evals/runs/
+ziwei/reports/
+ziwei/evals/runs/
+xiuyao/reports/
+xiuyao/evals/runs/
+hecan/reports/
+hecan/evals/runs/
+
+# Generated relationship outputs (contain two people's birth data)
+synastry.md
+**/synastry.md
+relationship.json
+**/relationship.json

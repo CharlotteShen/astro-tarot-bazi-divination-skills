@@ -1,0 +1,13 @@
+{
+  "reading_type": "hecan-pair",
+  "mode": "共振",
+  "birth": {
+    "a": {"year": 2000, "month": 1, "day": 1, "hour": 12, "minute": 0,
+          "lon": -0.1278, "lat": 51.5074, "tz": "Europe/London", "gender": "女"},
+    "b": {"year": 1988, "month": 11, "day": 5, "hour": "unknown", "minute": 0,
+          "lon": 151.21, "lat": -33.87, "tz": "Australia/Sydney", "gender": "男"}
+  },
+  "date": "2026-07-09",
+  "language": "zh",
+  "question": "两人长期合作关系的相处之道"
+}
