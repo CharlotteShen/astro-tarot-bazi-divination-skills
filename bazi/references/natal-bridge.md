@@ -10,6 +10,10 @@
   - 十神 ≠ 行星；大运 ≠ 行运。**没有结构映射。**
 - **是主题呼应。** 桥接只在两张整盘的**主题层**指出**共振（convergence）或分歧（divergence）**，
   并在每条note里点明"这是两种语言之间的主题呼应，不是翻译 / a thematic echo, not a translation"。
+- **相关但不同类：** astro-mbti 技能的星盘→MBTI 打分是对**世俗问卷**的公开赋权民俗游戏
+  （可证伪、自带免责），不属于本红线管辖的占卜体系间翻译——界定见
+  `astro-mbti/references/mbti-method.md` → 「与反翻译红线的关系」（四项资格条件**缺一
+  不可**；不可单独引用本条作为其他功能的先例）。本红线本身不变。
 
 ## 主题呼应速查（hooks，不是等式 · resonance hooks, NOT equivalences）
 | 八字信号 | 本命呼应 | 共享主题 |

@@ -1,9 +1,9 @@
 # astro-tarot-bazi-divination-skills
 
-**六种命理 · 一套工具。** 为 [Claude Code](https://claude.com/claude-code) 打造的六个命理技能：
-西洋本命占星、塔罗、八字、紫微斗数、宿曜占星，以及一套中西合参的东西方综合解读。所有计算都是确定性的、
-由脚本完成——行星位置、排盘、抽牌都来自带种子/经过校验的代码，绝不出自模型的凭空想象——好让 AI
-去做它真正擅长的事：**解读**。中文 + English。
+**七种命理 · 一套工具。** 为 [Claude Code](https://claude.com/claude-code) 打造的七个命理技能：
+西洋本命占星、塔罗、八字、紫微斗数、宿曜占星、一套中西合参的东西方综合解读，以及星盘测 MBTI
+民俗游戏。所有计算都是确定性的、由脚本完成——行星位置、排盘、抽牌、四轴打分都来自带种子/经过校验
+的代码，绝不出自模型的凭空想象——好让 AI 去做它真正擅长的事：**解读**。中文 + English。
 
 [English → README.md](README.md)
 
@@ -19,6 +19,7 @@
 | 🏮 **ziwei 紫微斗数** | *「排个紫微盘」* | [「被点名的地方，正是今年最值得下功夫的地方。」](docs/examples/ziwei-zh.md) |
 | 🌙 **xiuyao 宿曜** | *「我的本命宿」* | [「ABC 觉得是在得成果，XYZ 觉得是在冒风险」](docs/examples/xiuyao-zh.md) |
 | ☯️ **hecan 中西合参** | *「中西合参」* | [「你以为你在让步，对方可能觉得他在冒险」](docs/examples/hecan-zh.md) |
+| 🎭 **astro-mbti** | *「星盘测 MBTI」* | [「这是民俗游戏，不是测量」](docs/examples/astro-mbti-zh.md) |
 
 每个技能的深入指南：[docs/skills-guide.md](docs/skills-guide.md)
 
@@ -46,7 +47,7 @@ cd astro-tarot-bazi-divination-skills
 ./install.sh
 ```
 
-`install.sh` 会把六个技能软链接进 `~/.claude/skills/`，并询问是否安装 Python 排盘引擎、是否为你
+`install.sh` 会把七个技能软链接进 `~/.claude/skills/`，并询问是否安装 Python 排盘引擎、是否为你
 创建私人的出生数据文件。（`./install.sh --copy` 改为复制而非软链接；`./install.sh --uninstall`
 移除这些链接。）
 
@@ -54,9 +55,9 @@ cd astro-tarot-bazi-divination-skills
 <summary>想手动来？下面就是 <code>install.sh</code> 所做的每一步。</summary>
 
 ```bash
-# 1. link the six skill folders into your Claude Code skills directory
+# 1. link the seven skill folders into your Claude Code skills directory
 mkdir -p ~/.claude/skills
-for s in natal-astrology tarot bazi ziwei xiuyao hecan; do
+for s in natal-astrology tarot bazi ziwei xiuyao hecan astro-mbti; do
   ln -s "$PWD/$s" ~/.claude/skills/"$s"
 done
 
@@ -116,6 +117,10 @@ draw me a tarot card   → works even without birth data
 **☯️ hecan 中西合参** —— 多体系综合，单人四系 / 双人三轴（共振模式或全景模式）
 - 中文：*中西合参* · *合参* · *四盘合参* · *几个体系一起看* · *我们俩中西合参*
 - English: *"give me an East–West synthesis"* · *"read all my systems together"*
+
+**🎭 astro-mbti** —— 星盘测 MBTI 民俗游戏：逐轴倾向+置信度为主体，四字母类型仅供娱乐（需要 natal-astrology 技能 + Python）
+- 中文：*星盘测 MBTI* · *占星 MBTI* · *我的星盘是什么 MBTI*
+- English: *"predict my MBTI from my chart"* · *"what MBTI does my chart suggest"*
 
 ## 隐私
 

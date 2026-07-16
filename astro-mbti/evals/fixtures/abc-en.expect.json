@@ -1,0 +1,119 @@
+{
+  "reading_type": "astro-mbti-abc-en",
+  "must_mention": [
+    {
+      "desc": "类型串",
+      "patterns": [
+        "\\bENTJ\\b"
+      ]
+    },
+    {
+      "desc": "E/I 字母+置信度",
+      "patterns": [
+        "E/I.{0,40}\\blow\\b",
+        "\\bE\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "E/I 最重因子 Sun in Capricorn",
+      "patterns": [
+        "(?:Sun|太阳).{0,12}(?:Capricorn|摩羯)",
+        "(?:Capricorn|摩羯).{0,12}(?:Sun|太阳)"
+      ]
+    },
+    {
+      "desc": "N/S 字母+置信度",
+      "patterns": [
+        "N/S.{0,40}\\blow\\b",
+        "\\bN\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "N/S 最重因子 Sun in Capricorn",
+      "patterns": [
+        "(?:Sun|太阳).{0,12}(?:Capricorn|摩羯)",
+        "(?:Capricorn|摩羯).{0,12}(?:Sun|太阳)"
+      ]
+    },
+    {
+      "desc": "T/F 字母+置信度",
+      "patterns": [
+        "T/F.{0,40}\\blow\\b",
+        "\\bT\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "T/F 最重因子 Moon in Scorpio",
+      "patterns": [
+        "(?:Moon|月亮).{0,12}(?:Scorpio|天蝎)",
+        "(?:Scorpio|天蝎).{0,12}(?:Moon|月亮)"
+      ]
+    },
+    {
+      "desc": "J/P 字母+置信度",
+      "patterns": [
+        "J/P.{0,40}\\bhigh\\b",
+        "\\bJ\\b.{0,40}\\bhigh\\b"
+      ]
+    },
+    {
+      "desc": "J/P 最重因子 Sun in Capricorn",
+      "patterns": [
+        "(?:Sun|太阳).{0,12}(?:Capricorn|摩羯)",
+        "(?:Capricorn|摩羯).{0,12}(?:Sun|太阳)"
+      ]
+    },
+    {
+      "desc": "亚军双显示",
+      "patterns": [
+        "\\bENFJ\\b"
+      ]
+    }
+  ],
+  "must_flag": [
+    {
+      "desc": "disclaimer 逐字",
+      "patterns": [
+        "This\\s+is\\s+a\\s+folklore\\s+game,\\s+not\\s+a\\s+measurement\\.\\s+Astrology→MBTI\\s+has\\s+no\\s+scientific\\s+correlation;\\s+if\\s+this\\s+feels\\s+accurate,\\s+research\\s+says\\s+that's\\s+self\\-attribution,\\s+not\\s+the\\s+stars\\.\\s+For\\s+your\\s+real\\s+type,\\s+take\\s+an\\s+actual\\s+MBTI\\s+instrument\\."
+      ]
+    },
+    {
+      "desc": "谱系脚注",
+      "patterns": [
+        "谱系：|Lineage:"
+      ]
+    }
+  ],
+  "forbidden": [
+    {
+      "desc": "等价/诊断句式",
+      "patterns": [
+        "你(确实|真的)?就是 ?[EINSFTJP]{4}",
+        "测出",
+        "你的真实类型是",
+        "\\b(definitely|truly) an? [EINSFTJP]{4}\\b"
+      ]
+    },
+    {
+      "desc": "准确率宣称",
+      "patterns": [
+        "\\d+ ?% ?(准确|accurate)",
+        "准确率"
+      ]
+    },
+    {
+      "desc": "宿命词表",
+      "patterns": [
+        "注定",
+        "\\bdoomed\\b"
+      ]
+    },
+    {
+      "desc": "编造因子哨兵（缺席星座 Cancer,Gemini,Leo）",
+      "patterns": [
+        "(?:Sun|Moon|Mercury|Venus|Mars) in (?:Cancer|Gemini|Leo)",
+        "(?:太阳|月亮|水星|金星|火星)[在落]?(?:巨蟹|双子|狮子)座?"
+      ]
+    }
+  ]
+}

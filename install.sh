@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-# install.sh — link the six divination skills into your Claude Code skills folder.
+# install.sh — link the seven divination skills into your Claude Code skills folder.
 #
 # Usage:
-#   ./install.sh              link all six skills (symlinks; repo stays the source)
+#   ./install.sh              link all seven skills (symlinks; repo stays the source)
 #   ./install.sh --copy       copy instead of symlink (repo can be deleted afterwards)
-#   ./install.sh --uninstall  remove the six symlinks
+#   ./install.sh --uninstall  remove the seven symlinks
 #
 # Env: CLAUDE_SKILLS_DIR overrides the default ~/.claude/skills (used by tests).
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SKILLS_DIR="${CLAUDE_SKILLS_DIR:-$HOME/.claude/skills}"
-SKILLS=(natal-astrology tarot bazi ziwei xiuyao hecan)
+SKILLS=(natal-astrology tarot bazi ziwei xiuyao hecan astro-mbti)
 MODE="link"
 UNINSTALL=0
 

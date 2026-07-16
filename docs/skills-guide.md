@@ -207,6 +207,36 @@ engines, plus your birth-data file(s). An unknown hour is handled by automatic d
 synthesis, create `birth-data-2.md` too. 紫微 has no two-person mode. Setup:
 [birth-data setup](chart-setup.md).
 
+## Astro-MBTI (folklore game)
+
+**What it is.** 星盘测 MBTI：a **deterministic script**
+([`astro-mbti/scripts/mbti_score.py`](../astro-mbti/scripts/mbti_score.py)) scores the four
+MBTI axes (E/I · S/N · T/F · J/P) from your natal chart against an **open weighted folklore
+table** (elements→Jung's functions, modalities→J/P, aspects, houses) — the model never
+eyeballs the type. The reading leads with **per-axis leanings, driving factors, and
+confidence** (= how loudly the folklore points, never the probability of your "true type");
+the four-letter type arrives last, labeled **仅供娱乐 / for fun only**, with the research
+footnote built into every output: astrology→MBTI has no scientific correlation, and if a
+reading feels accurate, the studies say that's self-attribution, not the stars.
+
+**What to say.**
+
+- English: *"predict my MBTI from my chart"* · *"what MBTI does my chart suggest"*
+- 中文：*星盘测 MBTI* · *占星 MBTI* · *我的星盘是什么 MBTI*
+
+**What you get.** Four axis verdicts with the exact factor arithmetic shown (auditable),
+near-ties displayed as **both candidates**（「ENTJ——或 ENFJ，T/F 接近五五开」— never fake
+certainty）, and honest degradation when your birth hour is unknown (Ascendant/house factors
+dropped, E/I and J/P confidence capped, the notice printed). Its red lines: the type is never
+a diagnosis, never gets reused later as a fact about you, and there is **no manual fallback**
+— no script, no type.
+
+**Example.** [English](examples/astro-mbti-en.md) · [中文](examples/astro-mbti-zh.md)
+
+**Requirements.** **Route A only** (Python + the `natal-astrology` skill installed alongside
+— the scorer imports its chart engine), plus your birth-data file. An unknown birth hour is
+fine (degraded mode). Setup: [birth-data setup](chart-setup.md).
+
 ---
 
 *Next: [for developers](for-developers.md) — tests, evals, and conventions. Back to the

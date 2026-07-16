@@ -1,0 +1,140 @@
+{
+  "reading_type": "astro-mbti-unk-zh",
+  "must_mention": [
+    {
+      "desc": "类型串",
+      "patterns": [
+        "\\bENTJ\\b"
+      ]
+    },
+    {
+      "desc": "E/I 字母+置信度",
+      "patterns": [
+        "E/I.{0,40}\\blow\\b",
+        "\\bE\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "E/I 最重因子 Sun in Scorpio",
+      "patterns": [
+        "(?:Sun|太阳).{0,12}(?:Scorpio|天蝎)",
+        "(?:Scorpio|天蝎).{0,12}(?:Sun|太阳)"
+      ]
+    },
+    {
+      "desc": "N/S 字母+置信度",
+      "patterns": [
+        "N/S.{0,40}\\blow\\b",
+        "\\bN\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "N/S 最重因子 Moon in Virgo",
+      "patterns": [
+        "(?:Moon|月亮).{0,12}(?:Virgo|处女)",
+        "(?:Virgo|处女).{0,12}(?:Moon|月亮)"
+      ]
+    },
+    {
+      "desc": "T/F 字母+置信度",
+      "patterns": [
+        "T/F.{0,40}\\blow\\b",
+        "\\bT\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "T/F 最重因子 Sun in Scorpio",
+      "patterns": [
+        "(?:Sun|太阳).{0,12}(?:Scorpio|天蝎)",
+        "(?:Scorpio|天蝎).{0,12}(?:Sun|太阳)"
+      ]
+    },
+    {
+      "desc": "J/P 字母+置信度",
+      "patterns": [
+        "J/P.{0,40}\\blow\\b",
+        "\\bJ\\b.{0,40}\\blow\\b"
+      ]
+    },
+    {
+      "desc": "J/P 最重因子 Moon in Virgo",
+      "patterns": [
+        "(?:Moon|月亮).{0,12}(?:Virgo|处女)",
+        "(?:Virgo|处女).{0,12}(?:Moon|月亮)"
+      ]
+    },
+    {
+      "desc": "亚军双显示",
+      "patterns": [
+        "\\bINTJ\\b"
+      ]
+    }
+  ],
+  "must_flag": [
+    {
+      "desc": "disclaimer 逐字",
+      "patterns": [
+        "这是民俗游戏，不是测量。占星→MBTI\\s+没有科学相关性；如果觉得准，研究表明那是自我归因，不是星星。想知道真实类型，请做正式的\\s+MBTI\\s+测试。"
+      ]
+    },
+    {
+      "desc": "谱系脚注",
+      "patterns": [
+        "谱系：|Lineage:"
+      ]
+    },
+    {
+      "desc": "降级通告",
+      "patterns": [
+        "时辰未知|birth time unknown"
+      ]
+    },
+    {
+      "desc": "封顶如实",
+      "patterns": [
+        "封顶|capped"
+      ]
+    }
+  ],
+  "forbidden": [
+    {
+      "desc": "等价/诊断句式",
+      "patterns": [
+        "你(确实|真的)?就是 ?[EINSFTJP]{4}",
+        "测出",
+        "你的真实类型是",
+        "\\b(definitely|truly) an? [EINSFTJP]{4}\\b"
+      ]
+    },
+    {
+      "desc": "准确率宣称",
+      "patterns": [
+        "\\d+ ?% ?(准确|accurate)",
+        "准确率"
+      ]
+    },
+    {
+      "desc": "宿命词表",
+      "patterns": [
+        "注定",
+        "\\bdoomed\\b"
+      ]
+    },
+    {
+      "desc": "编造因子哨兵（缺席星座 Aquarius,Cancer,Leo）",
+      "patterns": [
+        "(?:Sun|Moon|Mercury|Venus|Mars) in (?:Aquarius|Cancer|Leo)",
+        "(?:太阳|月亮|水星|金星|火星)[在落]?(?:水瓶|巨蟹|狮子)座?"
+      ]
+    },
+    {
+      "desc": "降级路径上升/宫位断言",
+      "patterns": [
+        "上升(星座)?[在是落]",
+        "第[一二三四五六七八九十]+宫[的里有]",
+        "Ascendant (in|is)",
+        "in house \\d+"
+      ]
+    }
+  ]
+}

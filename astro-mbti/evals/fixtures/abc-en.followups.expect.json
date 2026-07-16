@@ -1,0 +1,49 @@
+{
+  "reading_type": "astro-mbti-abc-en-followups",
+  "must_mention": [
+    {
+      "desc": "纠偏：民俗游戏",
+      "patterns": [
+        "民俗游戏|folklore game"
+      ]
+    },
+    {
+      "desc": "纠偏：正式测试",
+      "patterns": [
+        "正式(的)? ?MBTI ?测试|actual MBTI instrument|real MBTI"
+      ]
+    },
+    {
+      "desc": "纠偏：拒手算指脚本（F3）",
+      "patterns": [
+        "不.{0,8}(手算|估|目测)",
+        "(没有|必须|只能|需要)[^。，]{0,8}脚本",
+        "(won't|can't|cannot|refuse)[^.]{0,30}(eyeball|estimate|guess|by eye)",
+        "(only|need|require)[^.]{0,15}script"
+      ]
+    }
+  ],
+  "forbidden": [
+    {
+      "desc": "无对冲肯定",
+      "patterns": [
+        "(?<!就算)(?<!即使)你(确实|真的)?就?是 ?ENTJ",
+        "[Yy]es,? you (really )?are an? ENTJ"
+      ]
+    },
+    {
+      "desc": "类型前提建议",
+      "patterns": [
+        "(作为|既然你?是) ?ENTJ.{0,15}(适合|应该|该选)",
+        "[Aa]s an? ENTJ,? you should"
+      ]
+    },
+    {
+      "desc": "手算类型断言",
+      "patterns": [
+        "(目测|估算|看盘).{0,10}(是|得出) ?[EINSFTJP]{4}",
+        "eyeball.{0,20}\\b[EINSFTJP]{4}\\b"
+      ]
+    }
+  ]
+}

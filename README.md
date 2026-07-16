@@ -1,10 +1,11 @@
 # astro-tarot-bazi-divination-skills
 
-**六种命理 · One toolkit.** Six divination skills for [Claude Code](https://claude.com/claude-code):
-Western natal astrology, tarot, 八字 BaZi, 紫微斗数 Zi Wei Dou Shu, 宿曜占星, and a 中西合参
-East-meets-West synthesis. All calculation is deterministic and scripted — planetary positions,
-排盘, card draws come from seeded/verified code, never from the model's imagination — so the AI
-does what it's actually good at: **interpretation**. English + 中文.
+**七种命理 · One toolkit.** Seven divination skills for [Claude Code](https://claude.com/claude-code):
+Western natal astrology, tarot, 八字 BaZi, 紫微斗数 Zi Wei Dou Shu, 宿曜占星, a 中西合参
+East-meets-West synthesis, and an astro-MBTI folklore game. All calculation is deterministic and
+scripted — planetary positions, 排盘, card draws, axis scores come from seeded/verified code, never
+from the model's imagination — so the AI does what it's actually good at: **interpretation**.
+English + 中文.
 
 [中文说明 → README.zh.md](README.zh.md)
 
@@ -20,6 +21,7 @@ does what it's actually good at: **interpretation**. English + 中文.
 | 🏮 **ziwei 紫微斗数** | *「排个紫微盘」* | [「被点名的地方，正是今年最值得下功夫的地方。」](docs/examples/ziwei-zh.md) — *the named spot is exactly where the year's effort is best spent* |
 | 🌙 **xiuyao 宿曜** | *「我的本命宿」* | [「ABC 觉得是在得成果，XYZ 觉得是在冒风险」](docs/examples/xiuyao-zh.md) — *same relationship, felt in opposite ways* |
 | ☯️ **hecan 中西合参** | *「中西合参」* | [「你以为你在让步，对方可能觉得他在冒险」](docs/examples/hecan-zh.md) — *you think you're giving way; the other feels they're taking a risk* |
+| 🎭 **astro-mbti** | *"predict my MBTI from my chart"* | ["**ENTJ** — or ENFJ (T/F near 50/50)"](docs/examples/astro-mbti-en.md) — *a folklore game, not a measurement* |
 
 Deeper guide to every skill: [docs/skills-guide.md](docs/skills-guide.md)
 
@@ -47,7 +49,7 @@ cd astro-tarot-bazi-divination-skills
 ./install.sh
 ```
 
-`install.sh` symlinks the six skills into `~/.claude/skills/`, offers to install the Python
+`install.sh` symlinks the seven skills into `~/.claude/skills/`, offers to install the Python
 calculation engines, and offers to create your private birth-data file. (`./install.sh --copy`
 copies instead of symlinking; `./install.sh --uninstall` removes the links.)
 
@@ -55,9 +57,9 @@ copies instead of symlinking; `./install.sh --uninstall` removes the links.)
 <summary>Prefer to do it by hand? Here's exactly what <code>install.sh</code> does.</summary>
 
 ```bash
-# 1. link the six skill folders into your Claude Code skills directory
+# 1. link the seven skill folders into your Claude Code skills directory
 mkdir -p ~/.claude/skills
-for s in natal-astrology tarot bazi ziwei xiuyao hecan; do
+for s in natal-astrology tarot bazi ziwei xiuyao hecan astro-mbti; do
   ln -s "$PWD/$s" ~/.claude/skills/"$s"
 done
 
@@ -118,6 +120,10 @@ is in [docs/skills-guide.md](docs/skills-guide.md).
 **☯️ hecan 中西合参** — 多体系综合，单人四系 / 双人三轴（共振模式或全景模式）
 - 中文：*中西合参* · *合参* · *四盘合参* · *几个体系一起看* · *我们俩中西合参*
 - English: *"give me an East–West synthesis"* · *"read all my systems together"*
+
+**🎭 astro-mbti** — MBTI-from-chart folklore game: per-axis leanings + confidence first, four-letter type for fun only (needs the natal-astrology skill + Python)
+- English: *"predict my MBTI from my chart"* · *"what MBTI does my chart suggest"*
+- 中文：*星盘测 MBTI* · *占星 MBTI* · *我的星盘是什么 MBTI*
 
 ## Privacy
 
