@@ -6,15 +6,15 @@
 
 ---
 
-- **Past** — Five of Wands (upright)
-- **Present** — The Magician (reversed)
-- **Future** — Three of Pentacles (upright)
+- **Past:** Five of Wands (upright)
+- **Present:** The Magician (reversed)
+- **Future:** Three of Pentacles (upright)
 
 A three-card spread reads as a trajectory, not a verdict: what led here, the heart of it now, and where the current line points if nothing shifts.
 
 […]
 
-The Magician is the card of focused will — one person with all four suits laid on the table, able to turn intention into a made thing. Reversed, in the Present position and against this question, that power is present but scattered: the tools are on the table, the talent is real, but it isn't pointed anywhere yet. […] For ABC the present-tense instruction is exact: gather the scattered power before spending it. Pick the one thing ABC is genuinely the best in the room at, and put it on the table face-up.
+The Magician is the card of focused will, one person with all four suits laid on the table, able to turn intention into a made thing. Reversed, in the Present position and against this question, that power is present but scattered: the tools are on the table, the talent is real, but it isn't pointed anywhere yet. […] For ABC the present-tense instruction is exact: gather the scattered power before spending it. Pick the one thing ABC is genuinely the best in the room at, and put it on the table face-up.
 
 ---
 

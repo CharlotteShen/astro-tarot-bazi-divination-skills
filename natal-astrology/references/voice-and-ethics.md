@@ -7,6 +7,8 @@
 - Concrete examples and metaphors over jargon. Translate every term the first time it appears.
 - Use each person's stated **gender/pronouns** (the chart's `gender` field) — she/her, he/him, they/them.
   **Never assume gender from a name.** If `gender` is missing, ask, or use they/them / the person's name.
+- Prose texture (what the sentences may not look like) is governed by
+  `prose-style.md`. Read it with this file; it is not optional polish.
 
 ## Ethics
 - Trends and tendencies, never certainties. "This points toward…", not "you will…". Avoid other

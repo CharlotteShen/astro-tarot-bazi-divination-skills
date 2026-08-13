@@ -14,16 +14,16 @@
 | Day 日 | 戊午 Wu-Wu (戊 Wù stem, 午 Wǔ branch — same romanization, different characters) | **day master 日主** | 丁、己 (正印 Proper Resource, 劫财 Rival) | Sky Fire |
 | Hour 时 | 戊午 Wu-Wu | 比肩 Peer | 丁、己 (正印, 劫财) | Sky Fire |
 
-- **Day master 日主 戊 Wu (yang Earth)**; **month command 月令 子 Zi** (Water, deep winter); void 空亡 子丑.
-- Five-element count: Wood 木1, Fire 火3, Earth 土3, Metal 金0, Water 水1 — **no Metal at all in the chart**.
+- Day master **日主 戊 Wu** (yang Earth); **month command 月令 子 Zi** (Water, deep winter); void 空亡 子丑.
+- Five-element count: Wood 木1, Fire 火3, Earth 土3, Metal 金0, Water 水1. There is no Metal at all in the chart.
 
 […]
 
-**Conclusion**: 2026 is a year of **overwhelming 印 (Resource)** — external support, resources, learning, and backing are all plentiful; but for a strong 戊 Earth, over-strong Resource **smothers 食伤 (the useful Output)**, so career tends toward "plenty of accumulation, too little production." The year's theme is to **actively open the output channel**.
+**Conclusion**: 2026 is a year of overwhelming 印 (Resource). External support, resources, learning, and backing are all plentiful; but for a strong 戊 Earth, over-strong Resource smothers 食伤 (the useful Output), so career tends toward "plenty of accumulation, too little production." The year's theme is to actively open the output channel.
 
 […]
 
-- **立春 庚寅 Geng-Yin (~Feb 4 – Mar 5)**: 庚 Metal **食神 (Output)** exposed = the chart's missing outlet appears; good for launching projects, shipping work, taking initiative. Counter-signal, adjudicated: 寅 half-combines with the chart's twin 午 into Fire (**寅午半合**), quietly feeding 印 Resource — the exposed 庚 still rules the month for output, but ship early rather than letting the window drift to month's end. Basis: 庚 (食神 Output) drains the heavy Earth; the 寅午 Fire half-combination (Resource) is the lesser, overruled signal.
+- 立春 庚寅 Geng-Yin (~Feb 4 to Mar 5): 庚 Metal **食神 (Output)** exposed = the chart's missing outlet appears; good for launching projects, shipping work, taking initiative. Counter-signal, adjudicated: 寅 half-combines with the chart's twin 午 into Fire (**寅午半合**), quietly feeding 印 Resource. The exposed 庚 still rules the month for output, but ship early rather than letting the window drift to month's end. Basis: 庚 (食神 Output) drains the heavy Earth; the 寅午 Fire half-combination (Resource) is the lesser, overruled signal.
 
 […]
 

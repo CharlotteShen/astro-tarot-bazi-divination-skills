@@ -29,3 +29,26 @@ natal-astrology/scripts/.venv/bin/python xiuyao/scripts/xiuyao_make_expect.py xi
   > xiuyao/evals/fixtures/xiuyao-pair.expect.json
 ```
 生成器内置防御断言（诱饵互斥/业胎距离None/六害钉死）——改 fixture 会先报错再要求重推 ground truth。
+
+## 文风 rubric（v4.1.0）
+
+机械门禁先跑：
+
+```bash
+python3 scripts/prose_scan.py xiuyao/evals/runs
+```
+
+必须 PASS。然后人工/模型过六项：
+
+1. 破折号为零（扫描器已机械确认，此处只复核 runs 之外的临场产出）。
+2. 无格言公式、无制造金句（"X 是 Y 的 Z"、每段收在可截图的一句上）。
+3. 句长有变化，不是通篇中等长度。
+4. 三项并列处，确实有三项，不是为凑周全。
+5. 收尾落在具体盘面事实上，不是一句祝福或上扬送别语。
+6. 中文输出无四字格连排、无翻译腔。
+
+**门禁强度如实说明：** 扫描器是硬门，但它只认识字符模式——破折号、超长粗体、内联
+标题、少量词表。上面第 2、3、5、6 项它**判不了**，只能靠人看。rubric 不通过不等于
+脚本会红。别把扫描器 PASS 当成文风合格。
+
+判定依据：`xiuyao/references/prose-style.md`。

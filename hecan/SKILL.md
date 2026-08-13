@@ -18,7 +18,8 @@ description: 中西合参——natal/八字/紫微/宿曜 多体系综合解读�
    ```
    一次拿全部体系原生输出信封；个人化输出只落 stdout 或 gitignored `hecan/reports/`。
 4. **解读**：按 `references/hecan-method.md`（所选模式）；各系输出按各自技能的 method
-   文件理解；hooks 表只作主题呼应入口。
+   文件理解；hooks 表只作主题呼应入口。正文文风按 `references/prose-style.md`
+   （必读，含多体系并陈时的专项豁免）。
 5. **红线**：hecan-method.md 红线四条（反多重宿命/禁投票/可用性如实/四系红线并集）一票否决。
 
 ## 边界

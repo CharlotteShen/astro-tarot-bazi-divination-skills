@@ -17,7 +17,7 @@ description: 宿曜占星（二十七宿）——本命宿性格、双人三九�
    ```
    真实生辰仅经参数进内存；个人化输出只落 stdout 或 gitignored `xiuyao/reports/`。
 3. **解读**：按 `references/method.md` 固定五步（含方向读法规则）；宿的性格材料查
-   `references/mansions.md`（光影必须成对）。
+   `references/mansions.md`（光影必须成对）；正文文风按 `references/prose-style.md`。
 4. **红线**：`references/voice-and-ethics.md` 总纲（危机应对/硬边界/隐私）+
    `references/method.md` 红线①–④（安坏禁判死刑、六害不分级≠灾祸、不打分、历法边界提示），
    一票否决。

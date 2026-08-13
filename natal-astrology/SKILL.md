@@ -14,7 +14,8 @@ accurate chart data comes from the user's `birth-data.md` file. Your value is in
    directory; (c) a path the user gives, or a chart they attach/paste. If none is found, go to
    "First-time setup".
 2. **Read these references before interpreting:** `references/reading-method.md`,
-   `references/voice-and-ethics.md`, and the relevant keyword files
+   `references/voice-and-ethics.md`, `references/prose-style.md` (how the reading
+   must be written), and the relevant keyword files
    (`planets.md`, `signs.md`, `houses.md`, `aspects.md`). Use `references/glossary.md` if output is 中文.
 3. **Validate** the chart against `references/data-contract.md` (Tier-1 completeness, plausible
    values). If Tier 1 is incomplete, ask for the missing pieces; never fabricate data.

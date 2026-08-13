@@ -9,19 +9,19 @@
 
 ## ① 命宫 Life Palace / 身宫 Body Palace / 五行局 Element-phase (the personality baseline)
 
-**Conclusion**: This is an "anchor" chart — a clear sense of self, able to carry weight and set the rules, and because the innate blueprint and the acquired point of effort coincide, the center of gravity barely shifts across life.
+**Conclusion**: This is an "anchor" chart. A clear sense of self, able to carry weight and set the rules; and because the innate blueprint and the acquired point of effort coincide, the center of gravity barely shifts across life.
 
-**Basis**: The 命宫 (Life Palace) sits at **庚午 Geng-Wu**, main star **紫微 Ziwei (庙 temple / peak brightness)**. 紫微 is the "Emperor" among the fourteen main stars — at peak brightness it is the born anchor star: shoulders responsibility, sets order, steadies best when the stage is large. This chart is **命身同宫 (Life and Body palaces in the same seat)** — 命宫 is the innate blueprint, 身宫 (Body Palace) is where you apply yourself later in life, and their coincidence means "who you mean to become" and "where you actually push" are highly aligned; unlike people whose 身宫 sits elsewhere and who pivot only in midlife.
+**Basis**: The 命宫 (Life Palace) sits at **庚午 Geng-Wu**, main star **紫微 Ziwei** (庙 temple / peak brightness). 紫微 is the "Emperor" among the fourteen main stars, and at peak brightness it is the born anchor star: shoulders responsibility, sets order, steadies best when the stage is large. This chart is **命身同宫** (Life and Body palaces in the same seat). 命宫 is the innate blueprint, 身宫 (Body Palace) is where you apply yourself later in life, and their coincidence means "who you mean to become" and "where you actually push" are highly aligned, unlike people whose 身宫 sits elsewhere and who pivot only in midlife.
 
 […]
 
 ## ⑤ 流年 Annual (2026's trigger)
 
-**Conclusion**: your 2026 career focus is to calibrate between "the drive to have the final say" and "the homework of wrestling with expression / principle" — this year the Career palace is named specifically by a **double 化忌**, while you personally stand at the center of the whole year's stage.
+**Conclusion**: your 2026 career focus is to calibrate between "the drive to have the final say" and "the homework of wrestling with expression / principle." This year the Career palace is named specifically by a **double 化忌**, while you personally stand at the center of the whole year's stage.
 
-**Basis**: the script sets the **2026 流年命宫 (annual Life Palace) back onto the natal 命宫 at 庚午, annual stem-branch 丙午 Bing-Wu**. The annual Life Palace returning to the natal Life Palace (午) means this year's stage is "you yourself" — identity and self-definition are the year's center. Annual stem **丙 Bing** raises the third set of transformations: **禄 → 天同, 权 → 天机 Tian-ji (the Strategist star), 科 → 文昌 Wen-chang (the Scholarship/writing star), 忌 → 廉贞**.
+**Basis**: the script sets the 2026 **流年命宫** (annual Life Palace) back onto the natal **命宫** at **庚午**, annual stem-branch **丙午 Bing-Wu**. The annual Life Palace returning to the natal Life Palace (午) means this year's stage is "you yourself." Identity and self-definition are the year's center. Annual stem **丙 Bing** raises the third set of transformations: **禄 → 天同**, **权 → 天机 Tian-ji** (the Strategist star), **科 → 文昌 Wen-chang** (the Scholarship/writing star), **忌 → 廉贞**.
 
-- **廉贞 化忌 → onto 官禄宫's 廉贞**: this is the year's must-see. The Career palace already carries **natal 文曲 化忌**, and this year **annual 廉贞 化忌** layers on top — **the Career palace is named by a second 忌 this year**. 文曲 忌 is "wrestling with expression / the written word"; 廉贞 忌 is "knotting up between principle and commitment"; two 忌 in one palace means what most easily jams in 2026 is **repeatedly straining over "how to present my expertise, and how far to yield on principle."** This is not a bad year — it is a "the homework gets named" year, and the named spot is exactly where the year's effort is best spent.
+- **廉贞 化忌** lands on 官禄宫's **廉贞**, and this is the year's must-see. The Career palace already carries **natal 文曲 化忌**, and this year **annual 廉贞 化忌** layers on top, so the Career palace is named by a second 忌 this year. 文曲 忌 is "wrestling with expression / the written word"; 廉贞 忌 is "knotting up between principle and commitment"; two 忌 in one palace means what most easily jams in 2026 is repeatedly straining over "how to present my expertise, and how far to yield on principle." This is not a bad year. It is a "the homework gets named" year, and the named spot is exactly where the year's effort is best spent.
 
 […]
 

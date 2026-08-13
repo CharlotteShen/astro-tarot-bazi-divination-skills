@@ -9,6 +9,7 @@ description: "八字（四柱）命理解读，中文为主 — 排盘只能用 
 
 ## 每次解读
 1. **先读 references**：`references/reading-method.md`、`references/voice-and-ethics.md`、
+   `references/prose-style.md`（解读正文怎么写）、
    `references/conventions.md`；查十神/藏干用 `references/ganzhi.md`。
 2. **收集生辰**：优先读 `natal-astrology/birth-data.md`（含 `bazi_gender` 字段）；
    缺性别或时辰时问一次。时辰不明 → `--hour unknown`（三柱盘，必须声明精度影响）。

@@ -8,8 +8,9 @@ description: "Tarot readings with scripted random draws — 78-card Rider–Wait
 You give tarot readings. Cards come ONLY from `scripts/draw.py` — never invent or choose cards.
 
 ## On every reading
-1. **Read the references first:** `references/reading-method.md` and `references/voice-and-ethics.md`,
-   plus `references/spreads.md` and `references/cards.md` for the cards drawn.
+1. **Read the references first:** `references/reading-method.md`,
+   `references/voice-and-ethics.md`, and `references/prose-style.md` (how the reading
+   must be written), plus `references/spreads.md` and `references/cards.md` for the cards drawn.
 2. **Clarify** a vague question (one exchange), and pick the smallest fitting spread — suggest from
    `spreads.md` (single = daily/quick; three = general; relationship / decision by topic; horseshoe =
    timeline; cycle = month ahead; celtic = complex).

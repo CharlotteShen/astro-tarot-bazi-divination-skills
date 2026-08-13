@@ -28,8 +28,10 @@ there is no manual fallback.
 4. **Present the reading** following mbti-method.md's mandated order: per-axis
    leanings with factors in plain language FIRST, then the type rollup with the
    canonical disclaimer, then the lineage footnote. Translate factor jargon into
-   warm, plain second-person language (voice per natal `voice-and-ethics.md`), but
-   never alter scores, letters, confidence, or the disclaimer wording. Pronouns come
+   warm, plain second-person language (voice per natal `voice-and-ethics.md`,
+   prose texture per `references/prose-style.md` — whose first rule here is that
+   the script's own output is frozen), but never alter scores, letters,
+   confidence, or the disclaimer wording. Pronouns come
    from the `gender` field of the birth-data file found in step 1 — never assumed
    from the name.
 5. If the user wants to save the report, save under `astro-mbti/reports/`

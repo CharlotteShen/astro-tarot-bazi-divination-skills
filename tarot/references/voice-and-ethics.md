@@ -14,3 +14,7 @@
   emergency services or a trusted person right away.
 - **Framing:** self-reflection and entertainment; the querent's lived judgment always outranks the cards.
 - Warm but clear-eyed; 中文 output follows the same rules.
+
+## 文风
+解读正文怎么写（不得出现哪些痕迹）见 `prose-style.md`，与本文件同为必读。
+那不是可选的润色，是交付标准。

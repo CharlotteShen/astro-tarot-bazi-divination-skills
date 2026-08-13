@@ -10,6 +10,7 @@ description: "紫微斗数命盘解读，中文为主 — 安星只能用 script
 
 ## 每次解读
 1. **先读 references**：`references/reading-method.md`、`references/voice-and-ethics.md`、
+   `references/prose-style.md`（解读正文怎么写）、
    `references/conventions.md`、`references/palaces.md`；查星曜与四化用
    `references/stars.md`、`references/sihua.md`。
 2. **收集生辰**：优先读 `natal-astrology/birth-data.md`（含 `bazi_gender` 字段）。

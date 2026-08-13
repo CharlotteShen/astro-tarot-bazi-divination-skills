@@ -11,20 +11,23 @@
 This is a **folklore game**: the script codifies the classic astrology→Jung→MBTI
 correspondences (air=thinking, water=feeling, earth=sensation, fire=intuition;
 cardinal→J, mutable→P…) into an open weighted table and scores your chart against it.
-Confidence measures **how loudly the folklore is pointing** — never the probability of
+Confidence measures how loudly the folklore is pointing, never the probability of
 your "true type."
 
-**E/I — E (confidence: low, net +2.0 / max 13.0).** Your chart argues with itself here:
-the Capricorn Sun, Scorpio Moon and Capricorn Mercury all vote inward, but the Aries
-Ascendant, an angular Sun and Moon, and every personal planet sitting above the horizon
-vote outward — and the outward side wins by a hair. Folklore would call you a
-public-facing introvert or a quiet extravert; the honest word is *close*.
+### E/I — E (confidence: low, net +2.0 / max 13.0)
+
+Your chart argues with itself here. The Capricorn Sun, Scorpio Moon and Capricorn
+Mercury all vote inward, while the Aries Ascendant, an angular Sun and Moon, and every
+personal planet sitting above the horizon vote outward. The outward side wins by a hair.
+Folklore would call you a public-facing introvert or a quiet extravert; the honest word
+is *close*.
 
 […]
 
-**J/P — J (confidence: high, net +6.5 / max 11.5).** The one loud axis. Sun, Ascendant,
-Mercury all cardinal, Saturn trine both luminaries — structure, planning, closure. This
-is where the folklore actually leans hard.
+### J/P — J (confidence: high, net +6.5 / max 11.5)
+
+The one loud axis. Sun, Ascendant, Mercury all cardinal, Saturn trine both luminaries:
+structure, planning, closure. This is where the folklore actually leans hard.
 
 Raw factor lines from the script (deterministic, auditable):
 
@@ -39,13 +42,17 @@ net +6.5 / max 11.5
 
 ## Your type — for fun only
 
-**ENTJ** — or ENFJ (T/F near 50/50)
+**ENTJ**, or ENFJ (T/F near 50/50)
 
 > This is a folklore game, not a measurement. Astrology→MBTI has no scientific
 > correlation; if this feels accurate, research says that's self-attribution, not the
 > stars. For your real type, take an actual MBTI instrument.
 
+<!-- prose-scan: ignore -->
+<!-- The lineage footnote below is frozen script output (mbti_score.py FOOTNOTE),
+     reproduced verbatim per the skill's red line. Its dash is the script's own. -->
 Lineage: MBTI descends from Jung's four functions, which drew on the classical four
 elements (air=thinking, water=feeling, earth=sensation, fire=intuition) — the folklore
 is coherent, just not predictive (Carlson 1985; van Rooij 1994; see
 references/mbti-method.md).
+<!-- /prose-scan -->
